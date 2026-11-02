@@ -2,6 +2,15 @@
 
 最后修改：2026-11-02
 
+## 本轮更新（2026-11-02）：已上传 GitHub 私有仓库
+
+- 用户接受建议名称 lychee-view-planning，沿用建议的私有可见性。已通过浏览器创建 `xyzkioo/lychee-view-planning`，通过 GitHub 连接器确认 visibility=private、当前账号具有写入权限。
+- 仓库地址：https://github.com/xyzkioo/lychee-view-planning ，默认分支 main。已上传 36 个文件，主程序与示例提交为 `d0c61836c0285994920060d5c7d47d58d468b70d`；此交接记录在该提交之后另行同步。
+- 全部上传文件的 Git blob SHA 与本地逐一比对一致，并已成功将 main 快进到上述提交；通过远程提交读取确认提交存在。
+- 内容包括最新版小车/相机模型与控制脚本、三点拍摄任务、说明、规格、研究工作记录、交接，以及三张实际照片和对应轨迹/位姿记录。原第三方树模型未上传，下载后需按 README 配置 LYCHEE_TREE_MODELS_PATH。
+- 上传工作副本在 `github-upload/lychee-view-planning`，打包副本为 `github-upload/lychee-view-planning.zip`。原 libraries 安装及主工作区受保护的 .git 均未更改；本次使用 API 创建提交，没有将主工作区初始化为 Git 仓库。
+- 先前“等待目标仓库/未上传”的段落保留为过程历史，当前状态以本节为准。
+
 ## 本轮更新（2026-11-02）：GitHub 上传准备，等待目标仓库
 
 - 用户要求上传 GitHub。已通过连接器确认登录账号 xyzkioo，当前工作区没有有效 Git 仓库或远程地址；本机未安装 gh。
