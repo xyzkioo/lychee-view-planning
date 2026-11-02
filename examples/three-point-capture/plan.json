@@ -1,0 +1,39 @@
+{
+  "name": "three_point_capture",
+  "world": "orchard",
+  "model": "orchard_rover",
+  "tree_center_xy_m": [
+    0.0,
+    0.0
+  ],
+  "exclusion_radius_m": 2.5,
+  "waypoints": [
+    {
+      "name": "east_low",
+      "x_m": 4.0,
+      "y_m": 0.0,
+      "yaw_deg": 180.0,
+      "height_m": 1.0,
+      "pan_deg": 0.0,
+      "tilt_deg": 8.0
+    },
+    {
+      "name": "northeast_mid",
+      "x_m": 3.9,
+      "y_m": 0.8,
+      "yaw_deg": -168.407,
+      "height_m": 1.3,
+      "pan_deg": 0.0,
+      "tilt_deg": 5.0
+    },
+    {
+      "name": "southeast_high",
+      "x_m": 3.9,
+      "y_m": -0.8,
+      "yaw_deg": 168.407,
+      "height_m": 1.6,
+      "pan_deg": 0.0,
+      "tilt_deg": 0.0
+    }
+  ]
+}

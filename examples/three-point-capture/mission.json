@@ -1,0 +1,148 @@
+{
+  "status": "complete",
+  "localization": "Gazebo world pose (ideal feedback)",
+  "position_tolerance_m": 0.06,
+  "yaw_tolerance_deg": 3,
+  "camera_height_tolerance_m": 0.01,
+  "camera_angle_tolerance_deg": 1,
+  "settle_sim_seconds": 1.0,
+  "max_sensor_time_difference_s": 0.2,
+  "captures": [
+    {
+      "file": "01_east_low.png",
+      "goal": {
+        "name": "east_low",
+        "x_m": 4.0,
+        "y_m": 0.0,
+        "yaw_deg": 180.0,
+        "height_m": 1.0,
+        "pan_deg": 0.0,
+        "tilt_deg": 8.0
+      },
+      "base_world_pose": {
+        "x_m": 4.000139292795954,
+        "y_m": -5.000347052146095e-13,
+        "z_m": -7.74681473389438e-06,
+        "yaw_rad": 3.1415926500000277,
+        "stamp_s": 2.35,
+        "orientation_xyzw": [
+          -2.7249576360791856e-05,
+          4.8927831818424034e-14,
+          0.9999999996287303,
+          1.7948827481553005e-09
+        ],
+        "speed_m_s": 0.0,
+        "yaw_rate_rad_s": 0.0
+      },
+      "position_error_m": 0.0001392927959535939,
+      "yaw_error_deg": 2.0567840536357344e-07,
+      "camera_joints": {
+        "lift_joint": 0.3000190203002637,
+        "pan_joint": -1.1245025758763358e-19,
+        "tilt_joint": -0.14059223794953682
+      },
+      "camera_joint_stamp_s": 2.35,
+      "image_stamp_s": 2.2,
+      "image_size_px": [
+        640,
+        480
+      ],
+      "settle_start_stamp_s": 1.19,
+      "nominal_camera_height_m": 1.0000190203002637,
+      "camera_pan_deg": -6.442925164930366e-18,
+      "camera_tilt_up_deg": 8.055341866807467
+    },
+    {
+      "file": "02_northeast_mid.png",
+      "goal": {
+        "name": "northeast_mid",
+        "x_m": 3.9,
+        "y_m": 0.8,
+        "yaw_deg": -168.407,
+        "height_m": 1.3,
+        "pan_deg": 0.0,
+        "tilt_deg": 5.0
+      },
+      "base_world_pose": {
+        "x_m": 3.902521271199807,
+        "y_m": 0.7570516435436412,
+        "z_m": -2.7479646830252946e-07,
+        "yaw_rad": -2.9726817914893107,
+        "stamp_s": 15.81,
+        "orientation_xyzw": [
+          -6.573557587830267e-08,
+          -6.264186288847162e-09,
+          0.9964357593996275,
+          -0.08435506736220996
+        ],
+        "speed_m_s": 0.0,
+        "yaw_rate_rad_s": 0.0
+      },
+      "position_error_m": 0.043022298064671526,
+      "yaw_error_deg": 1.9151204877261003,
+      "camera_joints": {
+        "lift_joint": 0.6000189869537857,
+        "pan_joint": -2.112860908045089e-06,
+        "tilt_joint": -0.08750944861596947
+      },
+      "camera_joint_stamp_s": 15.81,
+      "image_stamp_s": 15.7,
+      "image_size_px": [
+        640,
+        480
+      ],
+      "settle_start_stamp_s": 14.69,
+      "nominal_camera_height_m": 1.3000189869537857,
+      "camera_pan_deg": -0.00012105801272916232,
+      "camera_tilt_up_deg": 5.013922073211994
+    },
+    {
+      "file": "03_southeast_high.png",
+      "goal": {
+        "name": "southeast_high",
+        "x_m": 3.9,
+        "y_m": -0.8,
+        "yaw_deg": 168.407,
+        "height_m": 1.6,
+        "pan_deg": 0.0,
+        "tilt_deg": 0.0
+      },
+      "base_world_pose": {
+        "x_m": 3.8990297496046287,
+        "y_m": -0.7579478368808947,
+        "z_m": -2.5425170735449143e-07,
+        "yaw_rad": 2.971149719511882,
+        "stamp_s": 32.43,
+        "orientation_xyzw": [
+          -6.136150549474504e-08,
+          5.969456476098975e-09,
+          0.9963708480287323,
+          0.08511834818945396
+        ],
+        "speed_m_s": 0.0,
+        "yaw_rate_rad_s": 0.0
+      },
+      "position_error_m": 0.042063354702467075,
+      "yaw_error_deg": -1.8273392295091824,
+      "camera_joints": {
+        "lift_joint": 0.9000189943646293,
+        "pan_joint": 2.227694893226875e-06,
+        "tilt_joint": 0.00031805520778464553
+      },
+      "camera_joint_stamp_s": 32.44,
+      "image_stamp_s": 32.3,
+      "image_size_px": [
+        640,
+        480
+      ],
+      "settle_start_stamp_s": 31.25,
+      "nominal_camera_height_m": 1.6000189943646292,
+      "camera_pan_deg": 0.0001276375154247465,
+      "camera_tilt_up_deg": -0.018223221058216634
+    }
+  ],
+  "start_sim_stamp_s": 0.060000000000000005,
+  "physical_path_length_m": 2.2821257426709294,
+  "execution_sim_seconds": 32.52,
+  "stop_command_sent": true
+}

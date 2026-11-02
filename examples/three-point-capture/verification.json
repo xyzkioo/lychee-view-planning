@@ -1,0 +1,14 @@
+{
+  "all_checks_passed": true,
+  "tree_crossing_route_rejected": true,
+  "captures": 3,
+  "run_directory": "examples/three-point-capture",
+  "physical_path_length_m": 2.2821257426709294,
+  "image_changes_mean_rgb": [
+    27.200719401041667,
+    31.765074869791665
+  ],
+  "execution_sim_seconds": 32.52,
+  "maximum_position_error_m": 0.043022298064671526,
+  "maximum_yaw_error_deg": 1.9151204877261003
+}

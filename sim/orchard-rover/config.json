@@ -1,0 +1,15 @@
+{
+  "camera_height_m": 1.0,
+  "camera_elevation_degrees": 8.0,
+  "camera_min_height_m": 0.7,
+  "camera_max_height_m": 1.8,
+  "camera_pan_limit_degrees": 170.0,
+  "camera_tilt_min_degrees": -60.0,
+  "camera_tilt_max_degrees": 60.0,
+  "camera_width": 640,
+  "camera_height": 480,
+  "horizontal_fov_degrees": 60.0,
+  "camera_rate_hz": 10,
+  "wheel_radius_m": 0.12,
+  "wheel_separation_m": 0.46
+}

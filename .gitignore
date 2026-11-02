@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+external/
+**/backups/
+**/logs/
+**/outputs/
+**/gui/camera-test.*
+**/gui/camera_verification.json
